@@ -24,4 +24,14 @@ HSG inspects the text in the web site in real time. If it is determined that som
 ### 2. Hate Speech Detection for Video 
 HSG checks the Hate Speech of the video in real time. First, HSG finds the text in the 		video. If the text is determined to be hate speech, store the found time and duration. 		Then, video masking conversion within the web site is done using the stored time and 		duration.
 ### 3. Option Selection
-HSG considers the degree of user freedom. The option page helps parents to discuss 		with their child how to recognize and deal with the hate speech through the selection of 	users (mute - not mute / display - no notification). This increases the effectiveness of 		education on hate speech recognition.
+HSG considers the degree of user freedom. The option page helps parents to discuss with their child how to recognize and deal with the hate speech through the selection of users (mute - not mute / display - no notification). This increases the effectiveness of education on hate speech recognition.<br><br>
+
+##  📚  Stack & Library
++ Edge/Crome Extenstions
++ Azure
++ TensorFlow <br><br>
+
+##  🖥️  Preview
+<img src = "https://user-images.githubusercontent.com/64072741/125811475-d91dcbd9-09db-4d9e-9863-25d994b77b5c.png">
+<img src = "https://user-images.githubusercontent.com/64072741/125811475-d91dcbd9-09db-4d9e-9863-25d994b77b5c.png">
+
