@@ -1,6 +1,6 @@
 # 👶 Hate-Speech-Guard
 <img src = "https://img.shields.io/badge/ProjectType-TeamProject-orange?style=flat-square"> <img src = "https://img.shields.io/badge/Language-Javascript-critical?style=flat-square&logo=Javascript"> <img src = "https://img.shields.io/badge/Language-Python-critical?style=flat-square&logo=Python"> <img src = "https://img.shields.io/badge/Tools-VScode-brightgreen?style=flat-square&logo=VisualStudioCode"> <img src = "https://img.shields.io/badge/Tools-Pycharm-brightgreen?style=flat-square&logo=Pycharm">
-> HSG is an Crome/Edge extension that detects hate speech in real time on web pages. 
+> HSG is an **Crome/Edge extension** that detects hate speech in real time on web pages. 
 <br>
 <p align="center"> <img src = "https://user-images.githubusercontent.com/64072741/125803894-8212d310-fe98-4430-80d8-50911cf49a5b.png" width = "60%" > </p> <br><br><br>
 
@@ -19,6 +19,9 @@ Exposure to hate speech is an important factor that can affect the emotions of g
 Exposure to hate speech adversely affects 	children's emotional development and value formation.<br><br>
 
 ##  📝  Features
+
+#### HSG is the Web Extension Program. When you download the program to the web browser you use, it will run automatically detect hate speech.
+
 ### 1. Hate Speech Detection for Text
 HSG inspects the text in the web site in real time. If it is determined that some text 		contains hate speech, HSG closely analyzes the text. The analysis results show the words 	that contributed greatly to the judgment of hate speech. Using this result, text masking 		is performed win the web site.
 ### 2. Hate Speech Detection for Video 
@@ -32,6 +35,12 @@ HSG considers the degree of user freedom. The option page helps parents to discu
 + TensorFlow <br><br>
 
 ##  🖥️  Preview
-<img src = "https://user-images.githubusercontent.com/64072741/125811475-d91dcbd9-09db-4d9e-9863-25d994b77b5c.png">
-<img src = "https://user-images.githubusercontent.com/64072741/125811475-d91dcbd9-09db-4d9e-9863-25d994b77b5c.png">
+### 1. Hate Speech Detection for Text
+<p align="center"> <img src = "https://user-images.githubusercontent.com/64072741/125811475-d91dcbd9-09db-4d9e-9863-25d994b77b5c.png"> </p>
+
+### 2. Hate Speech Detection for Video 
+<p align="center"> <img src = "https://user-images.githubusercontent.com/64072741/125811574-6d54f72d-9e07-4b6b-9511-669c2ed33a99.png"> </p>
+
+### 3. Option Selection
+<p align="center"> <img src = "https://user-images.githubusercontent.com/64072741/125812562-7628185d-d17d-4d21-9759-1f64040c307d.png" width = "97%"> </p>
 
