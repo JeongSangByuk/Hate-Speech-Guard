@@ -1,8 +1,11 @@
-# 👶 Hate-Speech-Guard
-<img src = "https://img.shields.io/badge/ProjectType-TeamProject-orange?style=flat-square"> <img src = "https://img.shields.io/badge/Language-Javascript-critical?style=flat-square&logo=Javascript"> <img src = "https://img.shields.io/badge/Language-Python-critical?style=flat-square&logo=Python"> <img src = "https://img.shields.io/badge/Tools-VScode-brightgreen?style=flat-square&logo=VisualStudioCode"> <img src = "https://img.shields.io/badge/Tools-Pycharm-brightgreen?style=flat-square&logo=Pycharm">
+# 👶 Hate-Speech-Guard for Children
+<img src = "https://img.shields.io/badge/ProjectType-TeamProject-orange?style=flat-square"> <img src = "https://img.shields.io/badge/Language-Javascript-critical?style=flat-square&logo=Javascript"> <img src = "https://img.shields.io/badge/Language-Python-critical?style=flat-square&logo=Python"> <img src = "https://img.shields.io/badge/Tools-VScode-brightgreen?style=flat-square&logo=VisualStudioCode"> <img src = "https://img.shields.io/badge/Tools-Pycharm-brightgreen?style=flat-square&logo=Pycharm"><br>
 > HSG is an **Crome/Edge extension** that detects hate speech in real time on web pages. 
 <br>
-<p align="center"> <img src = "https://user-images.githubusercontent.com/64072741/125803894-8212d310-fe98-4430-80d8-50911cf49a5b.png" width = "60%" > </p> <br><br><br>
+<p align="center"> <img src = "https://user-images.githubusercontent.com/64072741/125822586-a78468bb-f313-43c8-b67e-f742925eee0e.png"> </p> <br>
+
+### <p align="center"> 🔥 2021 MicroSoft Imagine Cup Semifinals 🔥  </p>
+### <p align="center">  🔥 Category Feature - Lifestyle, Winner, World Finalists 🔥  </p> <br><br><br>
 
 
 ##  👨‍👧‍👧  Team Info
@@ -57,4 +60,9 @@ When a user searches the 		web, it brings text. The text enters Azure's virtual 
 The deep learning model we're trying to design is a simple task defined by a binary classification(hate or not hate), and had to ensure minimal response speed and stability in 	order to avoid compromising user experience. Therefore, rather than using heavy SOTA models such as Bert, 
 **We tried to design a neural net structure that could maintain a relatively light level of scale and computational complexity.** As a result, **we adopted the Bi-LSTM model** because the Bi-LSTM model showed the highest accuracy and moderate processing speed. Using the Bi-LSTM Model, a hate speech judgment is made for some sentences. 
 <br><br>
-For sentences that are judged to be hate speech, We used **the Lime(Local Interpretable Model-Agnostic Explanation) technique** to extract sound masking time and sentences 		that hate speech filtered. The Lime technique enables precise analysis of the evaluated 		sentences. Through the Lime technique, we can see why the sentence was judged as a hate speech 	and how much some words contributed to the result. Using this, we were able to identify 	the word portion to filter in sentence, and extract the time to filter from the video.
+For sentences that are judged to be hate speech, We used **the Lime(Local Interpretable Model-Agnostic Explanation) technique** to extract sound masking time and sentences 		that hate speech filtered. The Lime technique enables precise analysis of the evaluated 		sentences. Through the Lime technique, we can see why the sentence was judged as a hate speech 	and how much some words contributed to the result. Using this, we were able to identify 	the word portion to filter in sentence, and extract the time to filter from the video.<br><br>
+
+## 🎓 I Learned
++ AI Model Development
++ Crome/Edge Extension Development
++ Web Front Development
