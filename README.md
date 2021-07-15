@@ -18,6 +18,8 @@ Exposure to hate speech is an important factor that can affect the emotions of g
 ### 3. The problem of hate speech
 Exposure to hate speech adversely affects 	children's emotional development and value formation.<br><br>
 
+HSG seeks to present with the functions of the next chapter a new 		method of education that can recognize, prevent, and cope with discrimination in freedom 	of expression and opinion. When children are defenselessly exposed to hate speech, they recognize it and help them 	cope with it. HSG filters and removes web text and video and provides them to users 		through an extension program. By using HSG, it will be possible to minimize the exposure 	of children's hate speech and help children to form correct values and emotions.<br><br>
+
 ##  📝  Features
 
 #### HSG is the Web Extension Program. When you download the program to the web browser you use, it will run automatically detect hate speech.
@@ -29,6 +31,7 @@ HSG checks the Hate Speech of the video in real time. First, HSG finds the text 
 ### 3. Option Selection
 HSG considers the degree of user freedom. The option page helps parents to discuss with their child how to recognize and deal with the hate speech through the selection of users (mute - not mute / display - no notification). This increases the effectiveness of education on hate speech recognition.<br><br>
 
+
 ##  📚  Stack & Library
 + Edge/Crome Extenstions
 + Azure
@@ -39,8 +42,16 @@ HSG considers the degree of user freedom. The option page helps parents to discu
 <p align="center"> <img src = "https://user-images.githubusercontent.com/64072741/125811475-d91dcbd9-09db-4d9e-9863-25d994b77b5c.png"> </p>
 
 ### 2. Hate Speech Detection for Video 
-<p align="center"> <img src = "https://user-images.githubusercontent.com/64072741/125811574-6d54f72d-9e07-4b6b-9511-669c2ed33a99.png"> </p>
+<p align="center"> <img src = "https://user-images.githubusercontent.com/64072741/125811574-6d54f72d-9e07-4b6b-9511-669c2ed33a99.png"width = "75%"> </p>
 
 ### 3. Option Selection
-<p align="center"> <img src = "https://user-images.githubusercontent.com/64072741/125812562-7628185d-d17d-4d21-9759-1f64040c307d.png" width = "97%"> </p>
+<p align="center"> <img src = "https://user-images.githubusercontent.com/64072741/125812562-7628185d-d17d-4d21-9759-1f64040c307d.png" width = "73%"> </p><br>
 
+##  🛠️  Architecture
+<p align="center"> <img src = "https://user-images.githubusercontent.com/64072741/125813977-cd1cf9f7-c20a-48f2-95df-eb0d5f285863.png"> </p><br>
+
+When a user searches the 		web, it brings text. The text enters Azure's virtual machine server and determines 		whether it is a hate speech in a trained Python model. If the sentence is determined to 		be "hate speech", masking the sentence according to the option selected by the user. 		Filtered text/video is shown on the user's web browser.
+
+<p align="center"> <img src = "https://user-images.githubusercontent.com/64072741/125815205-2d7076e3-1987-4115-808f-297a54049ee6.png"> </p><br>
+The deep learning model we're trying to design is a simple task defined by a binary classification(hate or not hate), and had to ensure minimal response speed and stability in 	order to avoid compromising user experience. Therefore, rather than using heavy SOTA models such as Bert, **we tried to design a neural net structure that could maintain a relatively light level of scale and computational complexity**.
+As a result, **we adopted the Bi-LSTM model because the Bi-LSTM model showed the highest accuracy and moderate processing speed. Using the Bi-LSTM Model, a hate speech judgment is made for some sentences.** For 		sentences that are judged to be hate speech, We used the **Lime(Local Interpretable 		Model-Agnostic Explanation) techniqu**e to extract sound masking time and sentences 		that hate speech filtered. The Lime technique enables precise analysis of the evaluated 		sentences. Through the Lime technique, we can see why the sentence was judged as a hate speech 	and how much some words contributed to the result. Using this, we were able to identify 	the word portion to filter in sentence, and extract the time to filter from the video.
