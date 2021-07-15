@@ -50,9 +50,9 @@ HSG considers the degree of user freedom. The option page helps parents to discu
 ##  🛠️  Architecture
 <p align="center"> <img src = "https://user-images.githubusercontent.com/64072741/125813977-cd1cf9f7-c20a-48f2-95df-eb0d5f285863.png"> </p><br>
 
-When a user searches the 		web, it brings text. The text enters Azure's virtual machine server and determines 		whether it is a hate speech in a trained Python model. If the sentence is determined to 		be "hate speech", masking the sentence according to the option selected by the user. 		Filtered text/video is shown on the user's web browser.
+When a user searches the 		web, it brings text. The text enters Azure's virtual machine server and determines 		whether it is a hate speech in a trained Python model. If the sentence is determined to 		be "hate speech", masking the sentence according to the option selected by the user. 		Filtered text/video is shown on the user's web browser.<br><br>
 
-<p align="center"> <img src = "https://user-images.githubusercontent.com/64072741/125815205-2d7076e3-1987-4115-808f-297a54049ee6.png"> </p><br>
+<p align="center"> <img src = "https://user-images.githubusercontent.com/64072741/125815205-2d7076e3-1987-4115-808f-297a54049ee6.png" width = "80%"> </p>
 
 The deep learning model we're trying to design is a simple task defined by a binary classification(hate or not hate), and had to ensure minimal response speed and stability in 	order to avoid compromising user experience. Therefore, rather than using heavy SOTA models such as Bert, 
 **We tried to design a neural net structure that could maintain a relatively light level of scale and computational complexity.** As a result, **we adopted the Bi-LSTM model** because the Bi-LSTM model showed the highest accuracy and moderate processing speed. Using the Bi-LSTM Model, a hate speech judgment is made for some sentences. 
