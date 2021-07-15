@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "default";
+    src: url(font/NotoSans-Regular.ttf);
+}
+*{
+    font-family: "default";
+  list-style: none;
+  text-decoration: none;
+  border-collapse: collapse;
+  margin: 0px;
+  padding: 0px;  
+}
+
+.main{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.logo_image{
+    display: flex;
+    width: 250px;
+}
+
+.nav_title{
+    display: flex;
+    margin-left: auto;
+}
+
+.nav_title > li{
+    white-space:nowrap;
+    margin-left: 90px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.black_line{
+    margin-top: 5px;
+    height: 2px;
+    background-color: black;
+    opacity: 0.2;
+
+}
+
+.main_nav{
+    height: 40px;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+.nav_sub{
+    margin-left: 40px;
+    display: flex; 
+}
+
+.nav_sub > li{
+    white-space:nowrap;
+    margin-right: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.search_image{
+    margin-left: auto;
+    width: 25px;
+    height: 25px;
+}
+
+.text_body{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.user_info{
+    display: flex;
+}
+
+.category{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:tomato
+}
+
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size: 40px;
+}
+
+.user_image{
+    display: flex;
+    width: 50px;
+    margin-top: 20px;
+}
+
+.user_name{
+    margin-top: 23px;
+    margin-left: 20px;
+}
+
+.day{
+    margin-left: 20px;
+}
+
+.black_line_2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 1px;
+    background-color: black;
+    opacity: 0.2;
+
+}
+
+.main_text{
+    margin-top: 30px;
+}
+
+.hate_speech_image{
+    width: 900px;
+    display: block; 
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+
+.hate_speech_image2{
+    width: 900px;
+    display: block; 
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+
+.d1{
+    font-size: 20px;
+}
+
+.p1{
+    font-size: 20px;
+}
+
+.end_div{
+    height: 300px;
+    background-color:rgb(235, 235, 235);
+}
+
+.logo_image2{
+    width: 700px;
+    display: block; 
+    margin: 0px auto;
+    margin-bottom: 5px;
+    padding-top: 50px;
+}
+
+.end_text{
+    font-weight:bold;
+    font-size: 20px;
+    color: white ;
+    text-align: center;
+}
+
+
