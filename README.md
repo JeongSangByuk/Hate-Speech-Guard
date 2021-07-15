@@ -68,6 +68,6 @@ For sentences that are judged to be hate speech, We used **the Lime(Local Interp
 + Web Front Development<br><br>
 
 ## 🔍 More
-https://techcommunity.microsoft.com/t5/student-developer-blog/2021-imagine-cup-category-feature-lifestyle/ba-p/2200906
+https://techcommunity.microsoft.com/t5/student-developer-blog/2021-imagine-cup-category-feature-lifestyle/ba-p/2200906<br>
 https://news.joins.com/article/24017473<br>
 https://www.donga.com/news/article/all/20210322/106017354/1
