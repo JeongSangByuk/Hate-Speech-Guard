@@ -8,7 +8,7 @@
 ### <p align="center">  🔥 Category Feature - Lifestyle, Winner, World Finalists 🔥  </p> <br><br><br>
 
 
-##  👨‍👧‍👧  Team Info
+##  👨‍👧‍👧  Team Info 
 <p align="center"> <img src = "https://user-images.githubusercontent.com/64072741/125805272-d2b8e4e6-051e-42b4-bdde-acd1327582aa.png" width = "80%" > </p>
 We are Team En#Plane. We met at the university programming club En#.<br>We hope HSG will have a good influence on children, parents and global. <br><br>
 
